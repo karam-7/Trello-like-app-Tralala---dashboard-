@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Board</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- ==================== Start NavBar Area =================== -->
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="icon"><i class="fa-sharp fa-solid fa-house-chimney"></i></li>
+            <li class="icon"><i class="fa-solid fa-list"></i>
+                Boards</li>
+            <li class="input"><input type="text"></li>
+        </ul>
+        <div class="nav-title">Tralala</div>
+        <div class="action">
+            <span class="icon">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="icon">
+                <i class="fa-solid fa-user"></i>
+            </span>
+        </div>
+    </nav>
+    <!-- ====================== End NavBar Area ==================== -->
+    <!-- ======================= Start Main Area =================== -->
+     <div class="container">
+        <!-- ============== Start Menu Area ============== -->
+        <div class="box">
+            <div class="head">
+                Frontend Training
+            </div>
+            <div class="box-icon">
+                <span><i class="fa-solid fa-ellipsis-vertical"></i>
+                    Show menu
+                </span>   
+            </div>
+        </div>
+        <!-- ==================== Start Board Area =============== -->
+        <section class="board">
+            <div class="task">
+               <div class="list">
+                <div class="list-title">
+                    <h3>To Do</h3>
+                    <span class="list-icon">...</span>
+                </div>
+                <div class="list-task">
+                    Learn HTML <i class="fa-solid fa-pencil"></i>
+                </div>
+                <div class="list-task">
+                    Learn CSS <i class="fa-solid fa-pencil"></i>
+                </div>
+                <div class="list-task">
+                    Learn JAVA <i class="fa-solid fa-pencil"></i>
+                </div>
+                <div class="add-list">+ Add another card</div>
+               </div>              
+            </div>
+            <div class="task">
+                <div class="list">
+                    <div class="list-title">
+                        <h3>Doing</h3>
+                        <span class="list-icon">...</span>
+                    </div>
+                    <div class="list-task">Prepare resume</div>
+                    <div class="task-form">
+                        <form class="form">
+                            <textarea id="t-area" placeholder="Enter a title for this card..." rows="3"></textarea>
+                            <div class="form-btn">
+                                <button class="btn">Add Card</button>
+                                <i class="fa-sharp fa-solid fa-x cancel"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="task">
+                <div class="list">
+                    <div class="list-title">
+                        <h3>Testing/Verifying</h3>
+                        <span class="list-icon">...</span>
+                    </div>
+                    <div class="list-task">Twitter app frontend</div>
+                    <div class="add-list">+ Add another card</div>
+                </div>
+            </div>
+            <div class="task">
+                <div class="list">
+                    <div class="list-title">
+                        <h3>Deploying</h3>
+                        <span class="list-icon">...</span>
+                    </div>
+                    <div class="list-task">Twitter app backend</div>
+                    <div class="add-list">+ Add another card</div>
+                </div>
+            </div>
+            <div class="task">
+                <div class="list">
+                    <div class="list-title">
+                        <h3>Done</h3>
+                        <span class="list-icon">...</span>
+                    </div>
+                    <div class="add-list">+ Add another card</div>
+                </div>
+            </div>
+            <div class="task">
+                <div class="list">
+                    <div class="add-list">+ Add another card</div>
+                </div>
+            </div>
+            <div class="task">
+                <div class="list">               
+                    <div class="task-form">
+                        <form class="form">
+                            <textarea id="t-area" placeholder="Enter list title..." rows="3"></textarea>
+                            <div class="form-btn">
+                                <button class="btn">Add Card</button>
+                                <i class="fa-sharp fa-solid fa-x cancel"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     </div>
+    <!-- ======================= End Main Area ====================== -->
+</body>
+</html>
